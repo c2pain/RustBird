@@ -1,0 +1,19 @@
+[package]
+name = "RustBird"
+version = "0.1.0"
+edition = "2021"
+authors = ["c2pain"]
+
+[lib]
+name = "DismCore"
+crate_type = ["cdylib"]
+
+[dependencies]
+libaes = "0.7.0"
+windows = { version = "0.54.0", features = ["Win32_System_Threading", "Win32_Foundation", "Win32_Security", "Win32_System_Memory"] }
+winapi = { version = "0.3.9", features = ["wincon"] }
+ntapi = "0.4.1"
+rc4 = "0.1.0"
+
+[profile.release]
+pic = true
