@@ -29,6 +29,20 @@ C:\Users\C2Pain\Desktop> rc4_encryptor.exe raw.bin
 [+] Encrypted shellcode saved to: r-a-w-4.enc
 ```
 
+## DLL Sideloading
+Using Dism.exe as an example, it has been noted that it loads DismCore.dll.
+
+To locate the exported functions, you can use: https://github.com/c2pain/RustGetExports
+
+You can then include the exported functions to the lib.rs.
+```
+RustGetExports.exe C:\Windows\System32\Dism\DismCore.dll
+DismCore.dll
+DllCanUnloadNow
+DllGetClassObject
+DllRegisterServer
+```
+
 ## Usage 
 You need to compiled the binary and copy C:\Windows\System32\Dism.exe to the same directory to run:
 ```
