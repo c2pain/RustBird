@@ -69,3 +69,8 @@ Test Date: 5 Oct 2024
 
 ## Full Disclaimer
 For educational purposes only. Any actions and or activities related to the material contained within this repository is solely your responsibility. The misuse of the tools in this repo could result in criminal charges being brought against the persons in question. The author will not be held responsible in the event any criminal charges are brought against any individuals misusing the tools in this repository for mailicious ourposes or to break the law.
+
+## Support
+BTC: bc1q83z6r2mxytkhh9gpmavc94d53ez0kvkx7rxtzk
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/c2pain)
